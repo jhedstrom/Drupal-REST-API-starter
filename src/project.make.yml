@@ -1,0 +1,11 @@
+core: 8.x
+api: 2
+
+projects:
+  # Drupal Core
+  drupal:
+    type: core
+    download:
+      url: "http://git.drupal.org/project/drupal.git"
+      branch: '8.0.x'
+      revision: '8.0.0-beta2'

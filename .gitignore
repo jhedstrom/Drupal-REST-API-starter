@@ -1,0 +1,5 @@
+/build
+/node_modules
+/composer.lock
+/src/sites/default/files
+/src/sites/default/settings.local.php
