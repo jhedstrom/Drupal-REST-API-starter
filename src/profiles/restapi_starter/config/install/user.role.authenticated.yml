@@ -1,0 +1,16 @@
+uuid: 371a5b6a-f48c-4669-9d00-ee9636dcaa13
+langcode: en
+status: true
+dependencies: {  }
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+permissions:
+  - 'use text format plain_text'
+  - 'access content'
+  - 'use text format basic_html'
+  - 'access comments'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'access site-wide contact form'
+  - 'access shortcuts'

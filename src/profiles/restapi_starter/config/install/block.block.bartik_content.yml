@@ -1,9 +1,16 @@
+uuid: 7e8b5ccb-da03-4bb7-9900-f89c4f439e0b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik
 id: bartik_content
 theme: bartik
-weight: 0
-status: true
-langcode: en
 region: content
+weight: 0
+provider: null
 plugin: system_main_block
 settings:
   visibility: {  }
@@ -11,8 +18,6 @@ settings:
   label: 'Main page content'
   provider: system
   label_display: '0'
-dependencies:
-  module:
-    - system
-  theme:
-    - bartik
+  cache:
+    max_age: 0
+    contexts: {  }

@@ -1,9 +1,16 @@
+uuid: d927b1ec-7ef1-418b-ba41-655521a0a213
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
 id: seven_breadcrumbs
 theme: seven
-weight: -2
-status: false
-langcode: en
 region: '-1'
+weight: -2
+provider: null
 plugin: system_breadcrumb_block
 settings:
   visibility: {  }
@@ -11,8 +18,6 @@ settings:
   label: Breadcrumbs
   provider: system
   label_display: '0'
-dependencies:
-  module:
-    - system
-  theme:
-    - seven
+  cache:
+    max_age: 0
+    contexts: {  }

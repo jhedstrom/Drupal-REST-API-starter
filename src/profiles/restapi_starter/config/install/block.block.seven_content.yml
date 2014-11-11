@@ -1,9 +1,16 @@
+uuid: b27fe5b3-8692-4739-ad01-1f8c11a68052
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
 id: seven_content
 theme: seven
-weight: 0
-status: true
-langcode: en
 region: content
+weight: 0
+provider: null
 plugin: system_main_block
 settings:
   visibility: {  }
@@ -11,8 +18,6 @@ settings:
   label: 'Main page content'
   provider: system
   label_display: '0'
-dependencies:
-  module:
-    - system
-  theme:
-    - seven
+  cache:
+    max_age: 0
+    contexts: {  }

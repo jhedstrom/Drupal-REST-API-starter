@@ -1,3 +1,11 @@
+uuid: f8b2adb2-24df-4419-9e00-fb1b2efe6061
+langcode: en
+status: true
+dependencies:
+  entity:
+    - filter.format.basic_html
+  module:
+    - ckeditor
 format: basic_html
 editor: ckeditor
 settings:
@@ -39,10 +47,3 @@ image_upload:
   max_dimensions:
     width: 0
     height: 0
-status: true
-langcode: en
-dependencies:
-  config:
-    - filter.format.basic_html
-  module:
-    - ckeditor

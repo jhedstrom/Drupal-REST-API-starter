@@ -1,12 +1,21 @@
+uuid: 89000339-1b6e-4d64-8c00-f3ed9c047392
+langcode: en
+status: true
+dependencies:
+  entity:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - bartik
 id: bartik_account_menu
 theme: bartik
-weight: 0
-status: true
-langcode: en
 region: secondary_menu
+weight: 0
+provider: null
 plugin: 'system_menu_block:account'
 settings:
-  visibility: { }
+  visibility: {  }
   id: 'system_menu_block:account'
   label: 'User account menu'
   provider: system
@@ -16,10 +25,3 @@ settings:
     contexts: {  }
   level: 1
   depth: 1
-dependencies:
-  config:
-    - system.menu.account
-  module:
-    - system
-  theme:
-    - bartik

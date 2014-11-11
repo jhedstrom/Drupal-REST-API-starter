@@ -1,4 +1,12 @@
+uuid: fd5ae905-ceaa-4f7e-ba09-9f576a178efe
+langcode: und
+status: true
+dependencies:
+  module:
+    - image
+    - user
 id: user.user.default
+label: null
 targetEntityType: user
 bundle: user
 mode: default
@@ -11,8 +19,7 @@ content:
       image_link: content
     third_party_settings: {  }
     label: hidden
-status: true
-dependencies:
-  module:
-    - image
-    - user
+  member_for:
+    weight: 5
+hidden: {  }
+third_party_settings: {  }

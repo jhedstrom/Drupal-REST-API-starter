@@ -1,12 +1,17 @@
-id: user.user.user_picture
-status: true
+uuid: 1e1ec8a3-72c3-4829-8800-c396db7f6e39
 langcode: en
+status: true
+dependencies:
+  entity:
+    - field.storage.user.user_picture
+id: user.user.user_picture
+field_name: user_picture
 entity_type: user
 bundle: user
-field_name: user_picture
 label: Picture
 description: 'Your virtual face or picture.'
 required: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -25,7 +30,6 @@ settings:
     height: null
   alt_field_required: false
   title_field_required: false
+  handler: default
+third_party_settings: {  }
 field_type: image
-dependencies:
-  config:
-    - field.storage.user.user_picture

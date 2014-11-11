@@ -1,12 +1,21 @@
+uuid: 6f8c7059-c53d-4b4c-b508-08b4458a1dff
+langcode: en
+status: true
+dependencies:
+  entity:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - bartik
 id: bartik_main_menu
 theme: bartik
-weight: 0
-status: true
-langcode: en
 region: primary_menu
+weight: 0
+provider: null
 plugin: 'system_menu_block:main'
 settings:
-  visibility: {}
+  visibility: {  }
   id: 'system_menu_block:main'
   label: 'Main navigation'
   provider: system
@@ -16,10 +25,3 @@ settings:
     contexts: {  }
   level: 1
   depth: 1
-dependencies:
-  config:
-    - system.menu.main
-  module:
-    - system
-  theme:
-    - bartik
